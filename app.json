@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "ios": {
+      "bundleIdentifier": "com.appicbuilder.app"
+    },
+    "android": {
+      "package": "com.appicbuilder.app"
+    }
+  }
+}
