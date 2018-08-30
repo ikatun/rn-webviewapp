@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "expo": "^27.1.1",
     "jest-expo": "~27.0.0",
     "react-native-scripts": "1.14.0",
     "react-test-renderer": "16.3.1"
@@ -14,13 +13,17 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "expo-publish": "exp publish",
+    "build:ios": "exp build:ios",
+    "build:android": "exp build:android"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
     "react": "16.3.1",
-    "react-native": "~0.55.2"
+    "react-native": "~0.55.2",
+    "expo": "^27.1.1"
   }
 }
